@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; /* Adjust this value according to your header height */
+    background-color: #6e94a8; /* Blue header background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* This ensures that the header is always on top */
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.container {
+    
+    text-align: center;
+    background-color: #ffffff; /* White container background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+}
+
+.title {
+    color: #BB4367; /* Blue title color */
+    margin-bottom: 10px;
+}
+
+.break {
+    width: 50%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px; /* Set a maximum height for the image */
+    margin: 20px 0;
+    border-radius: 8px; /* Rounded corners for the image */
+}
+
+.download {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #27ae60; /* Green download link color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img[alt="Download Icon"] {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.download-text {
+    font-weight: bold;
+}
